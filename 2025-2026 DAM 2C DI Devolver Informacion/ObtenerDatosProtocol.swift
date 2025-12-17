@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+protocol ObtenerDatosProtocol {
+    func obtener(dato: String)
+}
